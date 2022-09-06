@@ -54,7 +54,7 @@ velero backup-location get
 ```
 5. Create backup 
 ```bash
-velero backup create cluster-backup
+velero backup create cluster-backup --include-namespaces myns
 ```
 
 ```bash
